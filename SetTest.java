@@ -17,7 +17,7 @@ public class SetTest {
 		setA.add("B");
 		setA.add("C");
 		setA.add("");
-		System.out.println("Set size : "+setA.size());
+		System.out.println("Set size 22 : "+setA.size());
 		
 		setB.add("B");
 		setB.add("A");
