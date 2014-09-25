@@ -1,5 +1,4 @@
 import java.util.HashSet;
-import java.util.LinkedHashSet;
 import java.util.Set;
 
 
@@ -16,8 +15,12 @@ public class SetTest {
 		setA.add("A");
 		setA.add("B");
 		setA.add("C");
+
 		setA.add("FF");
 		System.out.println("Set size : "+setA.size());
+		setA.add("");
+		System.out.println("New Change..");
+		System.out.println("Set size 22 : "+setA.size());
 		
 		setB.add("B");
 		setB.add("A");
